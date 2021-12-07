@@ -33,11 +33,11 @@ F17:: Send ^+{Tab}
 Return
 F18:: Send ^{Tab}
 Return
-F19:: Send !+{-}
+F19::
 Return
 F20:: Send !{Up}
 Return
-F21:: Send !+{+}
+F21:: Send !k
 Return
 F22:: Send !{Left}
 Return
