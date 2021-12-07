@@ -17,8 +17,39 @@ return
 >!d::Send {right}
 return
 
+;; windowsterminal
+#IfWinActive, ahk_exe WindowsTerminal.exe
+F12::
+Return
+F13::
+Return
+F14::
+Return
+F15::
+Return
+F16:: Send ^+w
+Return
+F17:: Send ^+{Tab}
+Return
+F18:: Send ^{Tab}
+Return
+F19:: Send !+{-}
+Return
+F20:: Send !{Up}
+Return
+F21:: Send !+{+}
+Return
+F22:: Send !{Left}
+Return
+F23:: Send !{Down}
+Return
+F24:: Send !{Right}
+Return
+
 ;;; VSCODE
 #IfWinActive, ahk_exe Code.exe
+f13:: ^`
+return
 
 
 ;;; MSEDGE
