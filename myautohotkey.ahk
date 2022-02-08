@@ -50,6 +50,41 @@ Return
 #IfWinActive, ahk_exe Code.exe
 f13:: ^`
 return
+>alt:: send {Escape}
+return
+
+;;; fl studio
+#IfWinActive, ahk_exe FL64.exe
+f24::
+Send, {alt down}
+sleep 250 ;
+Send, {alt up}
+return
+f23:: Send {Space}
+return
+f22::
+Send, {ctrl down}
+sleep 500 ;
+Send, {ctrl up}
+return
+f21:: ^v
+return
+f20:: ^c
+return
+f19::^z
+return
+f18::B
+return
+f17::P
+return
+f16::L
+return
+f15::F7
+return
+f14::F6
+return
+f13::F5
+return
 
 
 ;;; MSEDGE
