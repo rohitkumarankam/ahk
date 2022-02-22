@@ -17,6 +17,19 @@ return
 return
 >!d::Send {right}
 return
+^f1::
+return
+^f2::
+return
+^f3::
+return
+^f4::
+return
+^f5::
+return
+^f6::
+Send, #!{space}
+return
 
 ^!t:: Run, "Shortcuts\Terminal.lnk"
 ;; windowsterminal
